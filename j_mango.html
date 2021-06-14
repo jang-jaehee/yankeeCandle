@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango Peach Salsa</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/bxslider.js"></script>
+    <script src="js/multiCount.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/global.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup addtocart">
+        <p>Product add to the cart</p>
+        <a href="cart.html">Go to the cart</a>
+        <button class="close">Continue Shopping</button>
+    </div>
+    <header>
+            <div>
+                <select>
+                    <option>English</option>
+                    <option>German</option>
+                    <option>French</option>
+                    <option>Italian</option>
+                </select>
+                <label>Ship to:</label>
+                <select>
+                    <option>International</option>
+                    <option>UK</option>
+                    <option>Germany</option>
+                    <option>France</option>
+                    <option>Italia</option>
+                </select>
+            </div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </h1>
+            <div>
+                <a href="account.html">My Account</a>
+                <a href="cart.html">Cart</a>
+                <span>
+                    <input type="search" placeholder="Search">
+                    <input type="submit">
+                </span>
+            </div>
+            <button class='material-icons btn_gnb'>
+                menu
+            </button>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="jarServe.html">Jar Candles</a>
+                    </li>
+                    <li>
+                        <a href="squareServe.html">Square Candles</a>
+                    </li>
+                    <li>
+                        <a href="teaServe.html">Tea Light Candles</a>
+                    </li>
+                    <li>
+                        <a href="votiveServe.html">Votive Candles</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <div class="detailContainer">
+        <div class="slideArea">
+            <ul class="slider jarBx">
+                <li>
+                    <a href="#">
+                        <img src="images/j_mangoMainL.png" alt="large image">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/j_mangoMainM.png" alt="medium image">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/j_mangoMainS.png" alt="small image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="productArea">
+            <h2>Mango Peach Salsa</h2>
+            <small class="large">£24.99</small>
+            <small class="medium active">£20.99</small>
+            <small class="small">£8.99</small>
+            <ol class="thumbPager">
+                <li class="large">
+                    <a href="#" data-slide-index="0">
+                        <img src="images/j_mangoProductL.png" alt="large image">
+                    </a>
+                </li>
+                <li class="medium active">
+                    <a href="#" data-slide-index="1">
+                        <img src="images/j_mangoProductM.png" alt="medium image">
+                    </a>
+                </li>
+                <li class="small">
+                    <a href="#"data-slide-index="2">
+                        <img src="images/j_mangoProductS.png" alt="small image">
+                    </a>
+                </li>
+            </ol>
+            <div id="detailCount">
+                <fieldset>
+                    <label for="cou">count </label>
+                    <input type="text" id="cou" class="count" value="1" readonly>
+                    <button class="plus"></button>
+                    <button class="minus"></button>
+                    <span class="priceUnit">
+                        <label>TOTAL</label>
+                        <input type="text" class="price" value="20.99" disabled  maxlength="4">
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <input type="button" value="ADD CART" class="openPopup">
+                    <input type="submit" value="BUY NOW">
+                </fieldset>
+            </div>
+            <div class="sharebutton">
+                <a href="#">
+                    <img src="images/bg_share.png" alt="share icon">
+                </a>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/yankeecandleeu/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Yankeecandle/?brand_redir=233967166766563" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/yankeecandleeu" target="_blank"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <article class="detailsArea">
+            <h2>DETAILS</h2>
+            <h3>About This Fragrance</h3>
+            <p>Sweet and zesty … juicy mangoes and peaches livened with citrus,
+                ginger flowers and pink pepper.</p>
+            <h3>Fragrance Notes</h3>
+            <p>Top: Ripened Mango, Lime, Nectarine, Orange, Grapefruit, Mid: Peach, Ginger Flowers, Pinkpepper, Base: Clean Musk
+                Top note is the initial impression of the fragrance,
+                middle note is the main body of the scent,
+                base is its final impression.</p>
+            <div class="large">
+                <h3>About large Jar Candles</h3>
+                <p>A meditative fragrance—balanced and centered with gentle jasmine,
+                    a whisper of patchouli and warm amber musk.</p>
+            </div>
+            <div class="medium active">
+                <h3>About Medium Jar Candles</h3>
+                <p>The traditional design of our signature classic jar candle reflects a warm, relaxed sense of style that's always at home.
+                    Convenient and easy to use, our medium jar candle provides 65 to 90 hours of true fragrance enjoyment.</p>
+            </div>
+            <div class="small">
+                <h3>About small Jar Candles</h3>
+                <p>The traditional design of our signature classic jar candle reflects a warm, relaxed sense of style that's always at home.
+                    Convenient and easy to use, our small jar candle provides 25 to 40 hours of true fragrance enjoyment.</p>
+            </div>
+        </article>
+        <table class="specArea">
+            <caption>Specifications</caption>
+            <tr>
+                <th>Burn Time</th>
+                <td class="large">110-150 Hours</td>
+                <td class="medium active">65-75 Hours</td>
+                <td class="small">20-30 Hours</td>
+            </tr>
+            <tr>
+                <th>Wax</th>
+                <td>Premium-grade paraffin wax that delivers a clean, consistent burn.</td>
+            </tr>
+            <tr>
+                <th>Scent</th>
+                <td>Premium quality ingredients with natural essential oils create distinctive true-to-life scents</td>
+            </tr>
+            <tr>
+                <th>Wick</th>
+                <td class="large">Lab-tested to ensure the appropriate strength and consistency. 100% recyclable and accepted by most recycling centers.</td>
+                <td class="medium active">Lead-free, 100% natural fibers, and hand straightened to ensure it is centered for the best burn possible.</td>
+                <td class="small">Lead-free, 100% natural fibers, and hand straightened to ensure it is centered for the best burn possible.</td>
+            </tr>
+            <tr>
+                <th>Weight</th>
+                <td class="large">623g</td>
+                <td class="medium active">411g</td>
+                <td class="small">104g</td>
+            </tr>
+            <tr>
+                <th>Dimensions</th>
+                <td class="large">10.7cm x 16.8cm</td>
+                <td class="medium active">10.7cm x 12.7cm</td>
+                <td class="small">5.8cm x 8.6cm</td>
+            </tr>
+        </table>
+        <article class="safetyArea">
+            <h2>SAFETY</h2>
+            <p>Contains: Hexyl cinnamal, Geranyl acetate, Linalool, Octabenzone. May produce an allergic reaction.</p>
+        </article></div>
+    <footer>
+        <div>
+            <div>
+                <h2>HELP &amp; SUPPORT</h2>
+                <ul>
+                    <li>
+                        <a href="contactus.html">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="fragrance.html">Fragrance Times</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>ORDERS</h2>
+                <ul>
+                    <li>
+                        <a href="account.html">My account</a>
+                    </li>
+                    <li>
+                        <a href="shipping.html">Shipping Options</a>
+                    </li>
+                    <li>
+                        <a href="tracking.html">Delivery Tracker</a>
+                    </li>
+                    <li>
+                        <a href="return.html">Returns Policy</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div>
+                <h2>MOST POPULAR</h2>
+                <ul>
+                    <li><a href="j_pink.html">Pink Sands™</a></li>
+                    <li><a href="j_mid.html">Midsummer's Night®</a></li>
+                    <li><a href="s_dark.html">Dark Berries</a></li>
+                    <li><a href="t_paradise.html">The Last Paradise</a></li>
+                    <li><a href="v_bora.html">Bora Bora Shores</a></li>
+                </ul>
+            </div>
+            <h2>FOLLOW YANKEE CANDLE</h2>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/yankeecandleeu/" target="_blank">
+                            <img src="images/sns_ins.png" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Yankeecandle/?brand_redir=233967166766563" target="_blank">
+                            <img src="images/sns_book.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/yankeecandleeu" target="_blank">
+                            <img src="images/sns_tw.png" alt="twwiter">
+                        </a>
+                    </li>
+                </ul>
+                <select>
+                    <option>
+                        International
+                    </option>
+                </select>
+                <span>
+                    <input type="email" placeholder="Enter your email address">
+                    <input type="submit" value="OK">
+                </span>
+            </div>
+            <ul>
+                <li>
+                    <a href="privacy.html">TERMS &amp; CONDITIONS</a>
+                </li>
+                <li>
+                    <a href="privacy.html">TERMS OF USE</a>
+                </li>
+                <li>
+                    <a href="privacy.html">PRIVACY POLICY &amp; COOKIE</a>
+                </li>
+            </ul>
+            <address>
+                <strong>NEED HELP</strong>
+                <a href="tel:08002346169">0800 234 6169</a>
+                <span>Monday to Friday - 8.00 am to 8:00 pm</span>
+                <a href="mailto:consumeronline@yankeecandle.co.uk">consumeronline@yankeecandle.co.uk</a>
+            </address>
+        </div>
+    </footer>
+</body>
+</html>

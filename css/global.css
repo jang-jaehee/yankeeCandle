@@ -1,0 +1,717 @@
+body{
+    background-color: #ffffff;
+}
+header,
+footer,
+footer h2,
+figcaption,
+input,select,
+p,
+a,
+small,
+label,
+input,
+button,
+div.cartArea dl,
+div.granceArea dd,
+div.detailContainer tr,
+div.cartArea > ul li span{
+    font-family: 'Nunito';
+}
+h2,
+h3,
+div.privacyArea > ul li > p,
+div.cartArea ul li:first-of-type span,
+div.cartArea >div:last-of-type fieldset label,
+ul.frajarArea li dl dt,
+ul.frasquareArea li dl dt,
+caption{
+    font-family: 'Castoro';
+    font-weight: 400;
+}
+ul li{
+    list-style: none;
+}
+a{
+text-decoration: none;
+}
+@media screen and (max-width : 767px){
+    body{
+        padding-top: 210px;
+    }
+    header,
+    figure.mainCandle figcaption,
+    figure.jarCandle figcaption,
+    figure.teaCandle figcaption,
+    figure.votiveCandle figcaption,
+    figure.teaCandle figcaption,
+    section[class*=product],
+    section.titleArea h2,
+    section.titleArea > ul,
+    div.detailContainer,
+    div.cartArea,
+    div.accountArea,
+    div.returnArea,
+    div.contactArea,
+    div.shippingArea,
+    div.privacyArea,
+    div.orderArea,
+    ul.frajarArea,
+    ul.frasquareArea,
+    footer > div{
+        max-width: 727px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    header{
+        position: fixed; z-index: 1000; left: 0; top: 0; background-color: white;
+        padding-bottom: 50px;
+    }
+    header > div{
+        position: absolute;
+        font-size: 14px; color: #000000;
+        width: 35%;
+    }
+    header > div:first-of-type{
+        display: none;
+    }
+    header > div:nth-of-type(2){
+        right: 2%; top: 30px;
+    }
+    header > h1{
+        padding-top: 100px; text-align: center;
+    }
+    header > div *{
+        vertical-align: middle;
+    }
+    header > div select{
+        border: none;
+    }
+    header > div label{
+        margin-left: 10%;
+    }
+    header a{
+        color: #000000;
+    }
+    header h1 a{
+        display: block; text-align: center;
+    }
+    header h1 a img{
+        max-width: 148px;
+    }
+    header div:nth-of-type(2){
+        width: 100%; text-align: right;
+    }
+    header div:nth-of-type(2) > a{
+        font-size: 14px; color: #000000;
+        padding-left: 10%;
+        background-repeat: no-repeat;
+        background-position:left center;
+        background-size: contain;
+    }
+    header div:nth-of-type(2) a:first-of-type{
+        background-image: url('../images/ico_aco.png');
+    }
+    header div:nth-of-type(2) a:nth-of-type(2){
+        background-image: url('../images/ico_cart.png');
+        margin-left: 5%;
+    }
+    header div:nth-of-type(2) span{
+        display: none;
+    } 
+    header div:nth-of-type(2) span input[type='search']{
+        border-style: none;
+        max-width: 150px;
+        padding: 0 2%;
+    }
+    header div:nth-of-type(2) span input[type='submit']{
+        border: none;
+        background-position: right;
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        background: url('../images/ico_search.png')no-repeat;
+    }
+    header button.material-icons{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        left: 0;
+        top: 24px;
+        border: none;
+        background-color: transparent;
+    }
+    header nav{
+        position: fixed; z-index: 1000;
+        width: 100%;
+        top: -210px; left: 0;
+        transition-duration: 0.3s;
+    }
+    header nav.active{
+        top: 70px;
+    }
+    header nav ul li{
+        display: block;
+        line-height: 50px; padding-left: 2%; box-sizing: border-box;
+        background-color: #f4f4f4;
+    }
+    header nav ul li{
+        border-bottom: 1px solid #9a9a9a;
+    }
+    header nav ul li:first-of-type{
+        border-top: 1px solid #9a9a9a;
+    }
+    header nav ul li a{
+        font-size: 18px; display: block;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    /* header fin */
+    footer{
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        padding: 30px 0;
+    }
+    footer ul{
+        list-style: none;
+    }
+    footer a{
+        color: white;
+        line-height: 25px;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) ul li{
+        width: 50%; float: left;
+    }
+    footer > div > div:first-of-type ul:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    footer > div > div:nth-of-type(2) ul:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    footer > div > div:nth-of-type(3) ul:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+2){
+        margin-bottom: 30px;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > h2{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > ul li,
+    footer > div > ul li
+    {
+        font-size: 12px;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    footer > div > h2{
+        clear: left;
+        text-align: center;
+        padding: 40px 0;
+    }
+    footer > div > div:nth-of-type(4){
+        margin-bottom: 30px;
+    }
+    footer > div > div:nth-of-type(4) > ul{
+        
+    }
+    footer > div > div:nth-of-type(4) > ul li{
+        display: inline-block;
+    }
+    footer > div > div:nth-of-type(4) > ul li:not(:first-child){
+        margin-left: 20%;
+    }
+    footer > div > div:nth-of-type(4) > select{
+        display: none;
+    }
+    footer > div > div:nth-of-type(4) > span{
+        display: none;
+    }
+    footer > div > div:nth-of-type(4) > span:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    footer > div > div:nth-of-type(4) > span input{
+        float: left; box-sizing: border-box;
+        border: none; line-height: 30px; font-size: 14px;
+    }
+    footer > div > div:nth-of-type(4) > span input[type='email']{
+        width: 80%; padding: 0 5%;
+    }
+    footer > div > div:nth-of-type(4) > span input[type='submit']{
+        width: 20%; padding: 0;
+        background-color: white;
+    }
+    footer > div > ul,
+    footer > div > address{
+        text-align: center;
+    }
+    footer > div > ul{
+        margin-bottom: 50px;
+        display: block;
+    }
+    footer > div > ul li{
+        display: block;
+    }
+    footer > div > ul li:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    footer > div > address{
+        font-style: normal;
+    }
+    footer > div > address strong{
+        font-size: 14px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    footer > div > address a{
+        display: block;
+    }
+    footer > div > address:not(strong){
+        font-size: 12px;
+    }
+
+}
+/* mobile */
+
+@media screen and (min-width: 768px) and (max-width : 1279px){
+    header,
+    figure.jarCandle figcaption,
+    figure.teaCandle figcaption,
+    figure.votiveCandle figcaption,
+    figure.teaCandle figcaption,
+    section.titleArea h2,
+    section.titleArea > ul,
+    div.detailContainer,
+    div.cartArea,
+    div.accountArea,
+    div.returnArea,
+    div.contactArea,
+    div.shippingArea,
+    div.privacyArea,
+    ul.frajarArea,
+    ul.frasquareArea,
+    section[class*=product],
+    footer > div{
+        max-width: 728px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header button.material-icons{
+        display: none;
+    }
+    header{
+        position: relative;
+    }
+    header > div{
+        position: absolute;
+        font-size: 14px; color: #000000;
+        width: 35%;
+    }
+    header > div:first-of-type{
+        left: 0; top: 0;
+        padding-top: 30px;
+    }
+    header > div:nth-of-type(2){
+        right: 0; top: 30px;
+    }
+    header > h1{
+        padding-top: 100px; text-align: center;
+    }
+    header > div *{
+        vertical-align: middle;
+    }
+    header > div select{
+        border: none;
+    }
+    header > div label{
+        margin-left: 10%;
+    }
+    header a{
+        color: #000000;
+    }
+    header h1 a{
+        display: block; text-align: center;
+    }
+    header h1 a img{
+        max-width: 148px;
+    }
+    header div:nth-of-type(2){
+        width: 40%; text-align: right;
+    }
+    header div:nth-of-type(2) > a{
+        font-size: 14px; color: #000000;
+        padding-left: 10%;
+        background-repeat: no-repeat;
+        background-position:left center;
+        background-size: contain;
+    }
+    header div:nth-of-type(2) a:first-of-type{
+        background-image: url('../images/ico_aco.png');
+    }
+    header div:nth-of-type(2) a:nth-of-type(2){
+        background-image: url('../images/ico_cart.png');
+        margin-left: 5%;
+    }
+    header div:nth-of-type(2) span{
+        display: inline-block;
+        margin-left: 5%;
+        border-bottom: 1px solid #000000;
+        padding-top: 20px;
+    } 
+    header div:nth-of-type(2) span input[type='search']{
+        border-style: none;
+        max-width: 150px;
+        padding: 0 2%;
+    }
+    header div:nth-of-type(2) span input[type='submit']{
+        border: none;
+        background-position: right;
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        background: url('../images/ico_search.png')no-repeat;
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav ul{
+        text-align: center;
+    }
+    header nav ul:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header nav ul li{
+        display: block; line-height: 116px;
+        width: 25%; float: left;
+    }
+    header nav ul li a{
+        font-size: 18px; display: block;
+        color: #000000; opacity: 0.4;
+    }
+    /* header fin */
+    footer{
+        background-color: #000000;
+        color: #ffffff;
+        padding: 50px 0;
+    }
+    footer ul{
+        list-style: none;
+    }
+    footer a{
+        color: white;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3){
+        float: left;
+        text-align: center;
+        width: 33.33%;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > h2{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > ul li,
+    footer > div > ul li
+    {
+        font-size: 12px;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    footer > div > h2{
+        clear: left;
+        text-align: center;
+        padding: 50px 0;
+    }
+    footer > div > div:nth-of-type(4){
+        margin-bottom: 50px; position: relative; text-align: center;
+        padding: 0 37.5%;
+    }
+    footer > div > div:nth-of-type(4) > *:not(select){
+        position: absolute;
+    }
+    footer > div > div:nth-of-type(4) > ul{
+        width: 25%; left: 0; top: 0;
+    }
+    footer > div > div:nth-of-type(4) > ul li{
+        display: inline-block;
+    }
+    footer > div > div:nth-of-type(4) > ul li:not(:first-child){
+        margin-left: 25%;
+    }
+    footer > div > div:nth-of-type(4) > select{
+        font-size: 14px; display: block; width: 100%;
+        line-height: 30px; background-color: transparent;
+        padding: 4px 10px; color: white;
+    }
+    footer > div > div:nth-of-type(4) > span{
+        font-size: 14px; right: 0; top: 0;
+        width: 20%; display: block;
+    }
+    footer > div > div:nth-of-type(4) > span:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    footer > div > div:nth-of-type(4) > span input{
+        float: left; box-sizing: border-box;
+        border: none; line-height: 30px; font-size: 14px;
+    }
+    footer > div > div:nth-of-type(4) > span input[type='email']{
+        width: 80%; padding: 0 5%;
+    }
+    footer > div > div:nth-of-type(4) > span input[type='submit']{
+        width: 20%; padding: 0;
+        background-color: white;
+    }
+    footer > div > ul,
+    footer > div > address{
+        text-align: center;
+    }
+    footer > div > ul{
+        margin-bottom: 50px;
+        display: block;
+    }
+    footer > div > ul li{
+        display: inline-block;
+    }
+    footer > div > ul li:not(:first-child){
+        margin-left: 10%;
+    }
+    footer > div > address{
+        clear: left;
+        font-style: normal;
+    }
+    footer > div > address strong{
+        font-size: 14px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    footer > div > address:not(strong){
+        font-size: 12px;
+    }
+
+}
+/* tablet */
+
+@media screen and (min-width: 1280px){
+    body{
+        padding-top: 100px;
+    }
+    header,
+    figure.jarCandle figcaption,
+    figure.votiveCandle figcaption,
+    section.titleArea h2,
+    section.titleArea > ul,
+    div.detailContainer,
+    div.cartArea,
+    div.accountArea,
+    ul.frajarArea,
+    ul.frasquareArea,
+    footer > div{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        position: relative;
+    }
+    header button.material-icons{
+        display: none;
+    }
+    header > div{
+        position: absolute;
+        font-size: 14px; color: #000000;
+        width: 35%;
+    }
+    header > div:first-of-type{
+        left: 0; top: 30px;
+    }
+    header > div:nth-of-type(2){
+        right: 0; top: 20px;
+    }
+    header > h1{
+        padding: 0 40% 0 35%; text-align: center;
+    }
+    header > div *{
+        vertical-align: middle;
+    }
+    header > div select{
+        border: none;
+    }
+    header > div label{
+        margin-left: 10%;
+    }
+    header a{
+        color: #000000;
+    }
+    header h1 a{
+        display: block; text-align: center;
+    }
+    header h1 a img{
+        max-width: 148px;
+    }
+    header div:nth-of-type(2){
+        width: 40%; text-align: right;
+    }
+    header div:nth-of-type(2) > a{
+        font-size: 14px; color: #000000;
+        padding-left: 5%;
+        background-repeat: no-repeat;
+        background-position:left center;
+        background-size: contain;
+    }
+    header div:nth-of-type(2) a:first-of-type{
+        background-image: url('../images/ico_aco.png');
+    }
+    header div:nth-of-type(2) a:nth-of-type(2){
+        background-image: url('../images/ico_cart.png');
+        margin-left: 5%;
+    }
+    header div:nth-of-type(2) span{
+        display: inline-block;
+        margin-left: 5%;
+        border-bottom: 1px solid #000000;
+    } 
+    header div:nth-of-type(2) span input[type='search']{
+        border-style: none;
+        max-width: 150px;
+        padding: 0 2%;
+    }
+    header div:nth-of-type(2) span input[type='submit']{
+        border: none;
+        background-position: right;
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        background: url('../images/ico_search.png')no-repeat;
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav ul{
+        text-align: center;
+    }
+    header nav ul:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header nav ul li{
+        display: block; line-height: 116px;
+        width: 25%; float: left;
+    }
+    header nav ul li a{
+        font-size: 18px; display: block;
+        color: #000000; opacity: 0.4;
+    }
+    /* header fin */
+    footer{
+        background-color: #000000;
+        color: #ffffff;
+        padding: 50px 0;
+    }
+    footer > div{
+        padding: 0 13%; box-sizing: border-box;
+    }
+    footer ul{
+        list-style: none;
+    }
+    footer a{
+        color: white;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3){
+        float: left;
+        text-align: center;
+        width: 33.33%;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > h2{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > ul li,
+    footer > div > ul li
+    {
+        font-size: 12px;
+    }
+    footer > div > div:nth-child(n+1):nth-child(-n+3) > ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    footer > div > h2{
+        clear: left;
+        text-align: center;
+        padding: 50px 0;
+    }
+    footer > div > div:nth-of-type(4){
+        margin-bottom: 50px; position: relative; text-align: center;
+        padding: 0 37.5%;
+    }
+    footer > div > div:nth-of-type(4) > *:not(select){
+        position: absolute;
+    }
+    footer > div > div:nth-of-type(4) > ul{
+        width: 17%; left: 0; top: 0;
+    }
+    footer > div > div:nth-of-type(4) > ul li{
+        display: inline-block;
+    }
+    footer > div > div:nth-of-type(4) > ul li:not(:first-child){
+        margin-left: 25%;
+    }
+    footer > div > div:nth-of-type(4) > select{
+        font-size: 14px; display: block; width: 100%;
+        line-height: 30px; background-color: transparent;
+        padding: 4px 10px; color: white;
+    }
+    footer > div > div:nth-of-type(4) > span{
+        font-size: 14px; right: 0; top: 0;
+        width: 17%; display: block;
+    }
+    footer > div > div:nth-of-type(4) > span:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    footer > div > div:nth-of-type(4) > span input{
+        float: left; box-sizing: border-box;
+        border: none; line-height: 30px; font-size: 14px;
+    }
+    footer > div > div:nth-of-type(4) > span input[type='email']{
+        width: 80%; padding: 0 5%;
+    }
+    footer > div > div:nth-of-type(4) > span input[type='submit']{
+        width: 20%; padding: 0;
+        background-color: white;
+    }
+    footer > div > ul,
+    footer > div > address{
+        text-align: center;
+    }
+    footer > div > ul{
+        margin-bottom: 50px;
+        display: block;
+    }
+    footer > div > ul li{
+        display: inline-block;
+    }
+    footer > div > ul li:not(:first-child){
+        margin-left: 10%;
+    }
+    footer > div > address{
+        clear: left;
+        font-style: normal;
+    }
+    footer > div > address strong{
+        font-size: 14px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    footer > div > address:not(strong){
+        font-size: 12px;
+    }
+
+}
+/* desktop */
